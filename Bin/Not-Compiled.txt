@@ -1,0 +1,12 @@
+This file is intentionally not compiled, if you want to compile this file then you can do it. 
+(Use any method to turn it into a Shareable Exe File)
+
+we are avoiding compilation:
+
+1. To reduce the size of downloadable zip file,
+2. To Prevent it from getting red alerts from virustotal platform.
+3. To keep things Simple and Neat.
+4. When the Function/Plugin Uses multiple Dependencies, We Don't compile them.
+
+Lots of Love - TheBATeam.
+Follow us to Learn more and Grow With other worldwide fellow Brothers. - www.thebateam.org

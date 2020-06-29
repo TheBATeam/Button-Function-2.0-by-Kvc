@@ -1,0 +1,39 @@
+
+ This function helps in Adding a little GUI effect into your batch program...
+ It Prints simple Button on the cmd console at specified X Y co-ordinate...
+ After printing, Returns the area of the button on CMD and the Inverted color
+ You can use this information in the main program with GetInput.exe Plugin of
+ Batch. And, it will make your life much more easier than before.
+ 
+
+ Syntax: call Button [Item 1] [Item 2] [Item 3] ... X _Var_Box _Var_Hover
+ Syntax: call Button [help | /? | -h | -help]
+ Syntax: call Button ver
+
+ Where:-
+
+ [Item] is short for 	= [X] [Y] [color] "[Button Text]"
+
+ [X]	= X-ordinate of top-left corner of Button
+ [Y]	= Y-co_ordinate of top-left corner of Button
+ ver	= Version of Button function
+ [Item #]= The Items to display. And, Item Represents elements as told above.
+ X 	= Here, the Single 'X' (Must be third last element) indicates the Loop
+	 Sequence breaker for the Function. After 'X' You need to provide two -
+	 Variables. Which will return the Corresponding values for the GetInput
+	 Batch Plugin by aacini.
+ _Var_Box = The Second last parameter, which is name of the variable to save
+	 the values of All Buttons on the console.
+ _Var_Hover = The Last parameter, which is name of the variable to save the 
+	 mouse hover color for each button seperately.
+
+ Use the above two output variables with 'GetInput.exe' Plugin as follows:
+ GetInput /M %_Var_Box% /H %_Var_Hover%
+
+ This version 2.0 of Button function contains much more GUI Capabilities.
+ As it uses batbox.exe and calls it only once at the end of calculation...
+ For the most efficient output. This ver. uses GetInput By Aacini too. For the
+ Advanced Output on the console.
+
+ Visit www.thebateam.org for more...
+ #TheBATeam
